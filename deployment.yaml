@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: http://10.205.156.40:8081/rabbitmq/test:latest
+        image: busybox
         ports:
         - containerPort: 5672   # AMQP port
         - containerPort: 15672  # Management UI
