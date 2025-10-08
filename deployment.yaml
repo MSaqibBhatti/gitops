@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: 10.205.156.40:5000/rabbitmq/test:latest
+        image: 10.205.156.40/rabbitmq/test:latest
         ports:
         - containerPort: 5672   # AMQP port
         - containerPort: 15672  # Management UI
